@@ -1,8 +1,10 @@
 # Writing FujiNet Programs in ATARI BASIC
 
-On ATARI systems, FujiNet programs which use the network device can be easily written in ATARI BASIC. This extends the ability of ATARI BASIC to create new networked programs, and to explore FujiNet's networking features in an interactive manner.
+On ATARI systems with a FujiNet install, writing programs that can access a
+network device beside you or anywhere on the Internet can be easily written 
+in ATARI BASIC. This extends the ability of ATARI BASIC to create new networked programs, and to explore FujiNet's networking features in an interactive manner.
 
-This is possible due to the N: device handler that is present on the FujiNet Tools disk that can be mounted from the _apps.irata.online_ TNFS server, as well as any of the DOS disks in the DOS/ folder on _apps.irata.online. This handler, allows any program which can accept a device specification to use the network in the same manner as any other ATARI device. This means that ATARI BASIC can access anything on the network in the same way that it can access a disk drive, a printer, or any other connected device.
+This is possible through the N: device handler that is present on the FujiNet Tools disk that can be mounted from the _apps.irata.online_ TNFS server, as well as any of the DOS disks in the DOS/ folder on _apps.irata.online. This handler, allows any program which can accept a device specification to use the network in the same manner as any other ATARI device. This means that ATARI BASIC can access anything on the network in the same way that it can access a disk drive, a printer, or any other connected device.
 
 Let's load a copy of ATARI DOS 2.0S from _apps.irata.online_ and use ATARI BASIC to talk to the network.
 
