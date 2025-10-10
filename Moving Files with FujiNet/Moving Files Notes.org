@@ -1,0 +1,36 @@
+#+title: Moving files with FujiNet
+#+author: Thomas Cherryhomes
+#+email: thom.cherryhomes@gmail.com
+
+* Intro
+
+* Every network is different
+** Getting FujiNet hostname from CONFIG
+** Finding your system hostname (Windows, MacOS, Linux)
+
+* Method 1: SD Card
+** Required format (FAT32)
+** Max size (64GB), 2GB Recommended
+
+* Method 2: WebDAV Server
+** Windows using CyberDuck (because Microsoft WebClient sucks ass)
+** MacOS using Finder
+** Linux using DNS-SD and Nautilus
+
+* Method 3: TNFS Host Slots
+** Grabbing from FujiNet.Online
+** Running TNFSD
+** Connecting to your TNFS server
+
+* Method 4: SMB Host Slots
+** Setting up a share
+** Connecting to the share
+
+* A bit about permissions
+
+
+
+* URLs
+
+- Dolphin: webdav://atari/dav
+- GNOME: dav://atari/dav
